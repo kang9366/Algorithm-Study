@@ -1,4 +1,53 @@
-#### [C++ STL]()
+#### 벡터 비우기
+```c++
+vector<int> vec = {1, 2, 3, 4, 5};
+vec.clear();
+```
+
+#### 벡터 메모리까지 비우기
+```c++
+vector<int> vec = {1, 2, 3, 4, 5};
+vector<int>().swap(vec);
+```
+
+#### 많이 사용하는 변수는 CPU 레지스터에 저장해 접근속도를 높힐 수 있다.(주로 반복문에서 많이 사용)
+```c++
+register int i, j;
+for(i=0; i<N; ++i){
+    for(j=0; j<N; ++j){
+        ...
+    }
+}
+```
+
+#### 입출력 속도 빠르게
+```c++
+int main(void){
+    ios_base :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+}
+```
+
+
+#### 컴파일 속도 측정
+```c++
+int main(){
+    clock_t start, finish;
+    double duration;
+    start = clock();
+    
+    //속도 측정할 코드 시작
+    cout << "hello world!";
+    //속도 측정할 코드 끝
+    
+    finish = clock();
+    duration = (double)(finish - start) / CLOCKS_PER_SEC;
+    cout << fixed << duration << " sec" << endl;
+}
+```
+
+
 
 [시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)
 
