@@ -47,8 +47,6 @@ int main(){
 }
 ```
 
-
-
 [시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)
 
 #### 정렬 알고리즘
