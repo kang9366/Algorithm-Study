@@ -22,11 +22,9 @@ for(i=0; i<N; ++i){
 
 #### 입출력 속도 빠르게
 ```c++
-int main(void){
-    ios_base :: sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-}
+ios_base :: sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL);
 ```
 
 
