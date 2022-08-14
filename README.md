@@ -27,7 +27,6 @@ cin.tie(NULL);
 cout.tie(NULL);
 ```
 
-
 #### 컴파일 속도 측정
 ```c++
 int main(){
