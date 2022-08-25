@@ -10,6 +10,18 @@ vector<int> vec = {1, 2, 3, 4, 5};
 vector<int>().swap(vec);
 ```
 
+#### 벡터 원소 합
+accumulate( InputIt first, InputIt last, T init );
+
+first - 시작 반복자
+last - 마지막 반복자
+init - sum 초기값
+```c++
+#include <numeric>
+
+sum = accumulate(v.begin(), v.end(), 0);
+```
+
 #### 많이 사용하는 변수는 CPU 레지스터에 저장해 접근속도를 높힐 수 있다.(주로 반복문에서 많이 사용)
 ```c++
 register int i, j;
