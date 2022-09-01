@@ -79,8 +79,8 @@ int GCD(int a, int b){
 
 #### 최소공배수
 ```c++
-int LCM(int a, b){
-    return a * b / GCD(a, b);
+int LCM(int n, int m){
+    return n * m / GCD(n, m);
 }
 ```
 
