@@ -62,6 +62,28 @@ int main(){
 | 단점 | 메모리를 많이 사용함, 속도가 상대적으로 느림 | 상대적으로 복잡한 코드 |
 
 
+
+#### 최대공약수
+```c++
+int GCD(int a, int b){
+	int c;
+	while (b != 0)
+	{
+		c = a % b;
+		a = b;
+		b = c;
+	}
+	return a;
+}
+```
+
+#### 최소공배수
+```c++
+int LCM(int a, b){
+    return a * b / GCD(a, b);
+}
+```
+
 [시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)
 
 #### 정렬 알고리즘
