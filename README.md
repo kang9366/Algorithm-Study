@@ -1,7 +1,4 @@
 
-
-[시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)     
-[C++ 알고리즘]()
 #### 정렬 알고리즘
 * [버블정렬](https://github.com/kang9366/Algorithm_Study/wiki/버블정렬)
 * [선택정렬]()
@@ -13,6 +10,8 @@
 * [이진탐색]()
 
 #### 기타
+* [C++ 알고리즘]()
+* [시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)     
 * [브루트포스]()
 * [재귀]()
 * [동적계획법]()
