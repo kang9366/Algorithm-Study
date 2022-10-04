@@ -6,8 +6,8 @@
 *
 
 #### 탐색 알고리즘
-* [선형탐색]()
-* [이진탐색]()
+* [선형탐색](https://kang9366.tistory.com/16?category=1284757)
+* [이진탐색](https://kang9366.tistory.com/17?category=1284757)
 
 #### 기타
 * [C++ 알고리즘]()
