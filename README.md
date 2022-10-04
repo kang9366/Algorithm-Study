@@ -10,7 +10,6 @@
 * [이진탐색](https://kang9366.tistory.com/17?category=1284757)
 
 #### 기타
-* [C++ 알고리즘]()
 * [시간복잡도와 공간복잡도](https://github.com/kang9366/Algorithm_Study/wiki/시간복잡도와-공간복잡도)     
 * [브루트포스]()
 * [재귀]()
