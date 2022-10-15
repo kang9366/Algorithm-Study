@@ -86,3 +86,4 @@ int LCM(int n, int m){
     return n * m / GCD(n, m);
 }
 ```
+
