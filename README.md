@@ -38,11 +38,6 @@ vector<int>().swap(vec);
 ```
 ___
 #### 벡터 원소 합
-accumulate( InputIt first, InputIt last, T init );
-
-first - 시작 반복자
-last - 마지막 반복자
-init - sum 초기값
 ```c++
 #include <numeric>
 
