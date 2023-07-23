@@ -18,6 +18,10 @@
 * [윈도우 슬라이싱]()
 * [분할정복]()
 ___
+#### 시간 복잡도 계산
+O(N)에서 N=100,000,000 이면 1초로 계산
+
+___
 #### 입출력 속도 빠르게
 ```c++
 ios_base :: sync_with_stdio(false);
@@ -43,6 +47,16 @@ ___
 
 sum = accumulate(v.begin(), v.end(), 0);
 ```
+___
+#### 벡터 최대, 최소값
+```c++
+#include <algorithm>
+//최소
+min_element(vec, vec+size)
+//최대
+max_element(vec, vec+size)
+```
+
 ___
 #### 많이 사용하는 변수는 CPU 레지스터에 저장해 접근속도를 높힐 수 있다.(주로 반복문에서 많이 사용)
 ```c++
