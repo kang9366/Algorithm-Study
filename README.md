@@ -20,6 +20,26 @@
 ___
 #### 시간 복잡도 계산
 O(N)에서 N=100,000,000 이면 1초로 계산
+___
+#### 자료형 표현범위
+|        자료형        |  크기  |                            범위                             |
+| :------------------: | :----: | :---------------------------------------------------------: |
+|    (signed) char     | 1 byte |                         -128 ~ 127                          |
+|    unsigned char     | 1 byte |                           0 ~ 255                           |
+|       wchar_t        | 2 byte |                         0 ~ 65,535                          |
+|         bool         | 1 byte |                            0 ~ 1                            |
+| (signed) short (int) | 2 byte |                      -32,768 ~ 32,767                       |
+| unsigned short (int) | 4 byte |                         0 ~ 65,535                          |
+|     (signed) int     | 4 byte |               -2,147,483,648 ~ 2,147,483,647                |
+|     unsigned int     | 4 byte |                      0 ~ 4,294,967,295                      |
+| (signed) long (int)  | 4 byte |               -2,147,483,648 ~ 2,147,483,647                |
+| unsigned long (int)  | 4 byte |                      0 ~ 4,294,967,295                      |
+|        __int8        | 1 byte |                         -128 ~ 127                          |
+|       __int16        | 2 byte |                      -32,768 ~ 32,767                       |
+|       __int32        | 4 byte |               -2,147,483,648 ~ 2,147,483,647                |
+|       __int64        | 8 byte |   -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807    |
+|        float         | 4 byte |     3.4E-38(-3.4*10^38) ~ 3.4E+38(3.4*10^38) (7digits)      |
+|    (long) double     | 8 byte | 1.79E-308(-1.79*10^308) ~ 1.79E+308(1.79*10^308) (15digits) |
 
 ___
 #### 입출력 속도 빠르게
@@ -52,9 +72,13 @@ ___
 ```c++
 #include <algorithm>
 //최소
-min_element(vec, vec+size)
+min_element(vec, vec+size);
+//최소값의 인덱스
+min_element(vec, vec+size)-vec;
 //최대
-max_element(vec, vec+size)
+max_element(vec, vec+size);
+//최대값의 인덱스
+max_element(vec, vec+size)-vec;
 ```
 
 ___
